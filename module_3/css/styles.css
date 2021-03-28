@@ -1,0 +1,75 @@
+
+/* base styles */
+
+body {
+
+    font-size: 16px ;
+    
+    /* color: #CAF2D8 ; */
+    color: #0A0A0A ;
+    /* color: #646566 ; */
+    background-color: #adc9ed ;
+    font-family: 'Karla' , sans-serfi ;
+}
+
+
+/* header */
+#header-nav {
+    background-color: #3771DB ;
+    border-radius: 0 ;
+    border: 0 ;
+
+}
+
+.navbar-brand {
+
+    padding-top: 15px ;
+
+}
+
+/* brand name */
+.navbar-brand h1 {
+
+    color: #CAF2DB ;
+    font-size: 1.2em ;
+    text-shadow: 1px 1px 1px #2A2F36 ;
+    text-transform: uppercase ;
+    font-weight: bold ;
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+}
+
+/* remove the underline */
+.navbar-brand a:hover,  .navbar-brand a:focus {
+    text-decoration: none ;
+}
+
+/* collapsed navigation button color */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+
+  border: 1px solid #CAF2D8 ; /* same as h1 */
+
+}
+
+#xs-nav-links li {
+
+    background-color: #86B4F0 ;
+    text-align: center ;
+}
+
+#xs-nav-links li a {
+    color: #0A0A0A ;
+    border: 1px solid black ;
+}
+
+
+/* my custom ids and classes */
+
+.page-content {
+    height: 1000px ;
+}
+
+.menu-section {
+    margin-top: 25px ;
+    background-color: #86B4F0 ;
+}
